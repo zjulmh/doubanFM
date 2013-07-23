@@ -12,15 +12,15 @@ Alt + t 不再播放
 Alt + r 喜欢这首歌
 
 ##TODO
-<del>基本播放功能</del>
+*<del>基本播放功能</del>
 
-<del>频道选择</del>
+*<del>频道选择</del>
 
-<del>用户登录</del>
+*<del>用户登录</del>
 
-<del>全局快捷键</del>
+*<del>全局快捷键</del>
 
-<del>红心兆赫</del>
+*<del>红心兆赫</del>
 
 DJ电台以及搜索功能
 
