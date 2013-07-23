@@ -8,6 +8,7 @@
 #include <QPixmap>
 #include <QPropertyAnimation>
 #include <QDebug>
+#include <QProcess>
 #include "include/qxtglobalshortcut.h"
 doubanFM::doubanFM(QWidget *parent) :
     QWidget(parent),
@@ -265,7 +266,8 @@ void doubanFM::sourceChanged(const Phonon::MediaSource source)
         ui->rateSongButton->setIcon(QIcon(":/icons/heart_empty.png"));;
         ui->rateSongButton->setToolTip(tr("Rate the song"));
     }
-
+    QStringList args = QStringList() <<"-t" << "1000" <<"-i" << "/usr/share/icons/doubanFM.png" << "--hint=int:transient:1" << "doubanFM" << _songList[currentSongIndex].title;
+    QProcess::execute(QString("notify-send"),args);
     emit albumImageRequest(_songList[currentSongIndex].picture);
 }
 

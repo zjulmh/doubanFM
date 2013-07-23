@@ -36,7 +36,7 @@ channelList::~channelList()
 
 void channelList::setchannelId(qint32 channelId)
 {
-    currentChannelId = channelId;
+    currentChannelId = channelId;   
 }
 
 int channelList::getInvisibleWidth()
