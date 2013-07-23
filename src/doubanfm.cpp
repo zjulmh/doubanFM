@@ -431,6 +431,7 @@ void doubanFM::stateChanged(Phonon::State newState, Phonon::State oldState)
 
 void doubanFM::writeSettings()
 {
+    setting.clear();
     setting.setValue("currentSongId",currentSongId);
     setting.setValue("currentChannelId",currentChannelId);
     QVariantMap user;
