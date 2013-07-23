@@ -12,7 +12,7 @@ Alt + t 不再播放
 Alt + r 喜欢这首歌
 
 ###截图
-![github](https://github.com/zjulmh/doubanFM/blob/master/screenshot/screenshot.png "github")
+![Image text](https://github.com/zjulmh/doubanFM/blob/master/screenshot/screenshot.png "github")
 
 
 ###TODO
