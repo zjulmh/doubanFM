@@ -2,7 +2,7 @@ doubanFM
 ========
 
 doubanFM desktop client with Qt
-##全局快捷键 global shortcut
+###全局快捷键 global shortcut
 Alt + p 暂停/播放
 
 Alt + s 下一首
@@ -11,7 +11,11 @@ Alt + t 不再播放
 
 Alt + r 喜欢这首歌
 
-##TODO
+###截图
+![github](https://github.com/zjulmh/blob/master/screenshot/screenshot.png "github")
+
+
+###TODO
 *<del>基本播放功能</del>
 
 *<del>频道选择</del>
